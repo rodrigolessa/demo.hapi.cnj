@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Validate CNJ with Node and Hapijs!</title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <h2>Formação do Número Único do Processo:</h2>
+    <p>NNNNNNN-DD.AAAA.J.TR.OOOO</p>
+    <p>Onde:</p>
+    <p>NNNNNNN = 7 dígitos que indicam o número de ordem de autuação do processo, no ano de autuação e na unidade jurisdicional de origem; no caso de tribunais de justiça que fizeram a opção de que trata o art. 1º, § 1.º-A, da Resolução 65/2008, o número de ordem é relativo ao tribunal de origem ao invés da unidade de origem;</p>
+    <p>DD = 2 dígitos verificadores da integridade do número, calculados a partir de todos os demais dígitos;</p>
+    <p>AAAA = 4 dígitos indicadores do ano da autuação;</p>
+    <p>J - 1 dígito identificador do segmento do Judiciário a que pertence o processo, sendo o dígito 1 para o Supremo Tribunal Federal, 2 para o Conselho Nacional de Justiça, 3 para o Superior Tribunal de Justiça, 4 para a Justiça Federal, 5 para a Justiça do Trabalho, 6 para a Justiça Eleitoral, 7 para a Justiça Militar da União, 8 para a Justiça dos Estados e do Distrito Federal e Territórios, e 9 para a Justiça Militar Estadual;</p>
+    <p>- O campo(J), com 1(um) dígito, identifica o órgão ou segmento do Poder Judiciário, observada a seguinte correspondência:</p>
+    <ul>
+    	<li>I – Supremo Tribunal Federal: 1(um);</li>
+		<li>II – Conselho Nacional de Justiça: 2(dois);</li>
+		<li>III – Superior Tribunal de Justiça: 3(três);</li>
+		<li>IV - Justiça Federal: 4(quatro);</li>
+		<li>V - Justiça do Trabalho: 5(cinco);</li>
+		<li>VI - Justiça Eleitoral: 6(seis);</li>
+		<li>VII - Justiça Militar da União: 7(sete);</li>
+		<li>VIII - Justiça dos Estados e do Distrito Federal e Territórios: 8(oito);</li>
+		<li>IX - Justiça Militar Estadual: 9(nove).</li>
+    </ul>
+    <p>TR - 2 dígitos que identificam o tribunal ou conselho do segmento do Poder Judiciário a que pertence o processo; para os tribunais superiores (STF, STJ, TST, TSE e STM) e o CNJ, o código deverá ser preenchido com zero (00), para os Conselhos da Justiça Federal e Superior da Justiça do Trabalho, deverá ser preenchido com o número 90 (noventa), para os demais tribunais, com um número identificador do tribunal;</p>
+    <p>OOOO = 4 dígitos identificadores da unidade de origem do processo, seguindo regras diversas para cada um dos segmentos do Judiciário, à exceção dos tribunais e conselhos, que terão esses dígitos preenchidos com zero (0000); esses códigos foram fornecidos pelos tribunais e estão à disposição para consulta no sítio do CNJ.</p>
+    <p>&nbsp;</p>
+    <p>Exemplos:</p>
+    <p>0033739-92.1999.8.26.0100</p>
+    <p>1016768-15.1999.8.26.0100</p>
+  </body>
+</html>
